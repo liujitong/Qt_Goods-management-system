@@ -1,6 +1,6 @@
 #include "update_goods_data.h"
 #include "ui_update_goods_data.h"
-#include "QMessageBox""
+#include "QMessageBox"
 int flag_b=0,flag_p=0;
 void update_goods_data::update_brand(goods *headp, const string& name, const string& brand)
 {
