@@ -10,16 +10,21 @@ void updating(goods *head, const string& name, int num)
         if(p->name==name)
         {
             p->num=num;
+            //如果数量为0，删除该节点
+            if(p->num==0)
+            {
+                goods *q;
+                q=head;
+                while(q->next!=p)
+                {
+                    q=q->next;
+                }
+                q->next=p->next;
+                delete p;
+            }
             break;
         }
-        //如果数量为0，删除节点
-        if(p->num==0)
-        {
-            goods *q;
-            q=p->next;
-            p->next=q->next;
-            delete q;
-        }
+
         p=p->next;
     }
 }
