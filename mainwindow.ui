@@ -28,6 +28,23 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>欢迎使用商品管理系统</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="end">
+       <property name="text">
+        <string>结束营业</string>
+       </property>
+      </widget>
+     </item>
      <item row="1" column="0">
       <widget class="QPushButton" name="Insert_key">
        <property name="text">
@@ -49,13 +66,6 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
-      <widget class="QPushButton" name="Change_ky">
-       <property name="text">
-        <string>更新库存</string>
-       </property>
-      </widget>
-     </item>
      <item row="1" column="1">
       <widget class="QPushButton" name="Searh_key">
        <property name="text">
@@ -63,20 +73,24 @@
        </property>
       </widget>
      </item>
-     <item row="3" column="1">
-      <widget class="QPushButton" name="end">
+     <item row="2" column="0">
+      <widget class="QPushButton" name="Change_ky">
        <property name="text">
-        <string>结束营业</string>
+        <string>更新库存</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_2">
        <property name="text">
-        <string>欢迎使用商品管理系统</string>
+        <string>更新商品数据</string>
        </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>关于本程序</string>
        </property>
       </widget>
      </item>

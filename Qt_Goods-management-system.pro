@@ -9,6 +9,7 @@ RC_ICONS = Icon\nanew.ico
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    about_us.cpp \
     all_out.cpp \
     change_windows.cpp \
     fileio.cpp \
@@ -17,9 +18,11 @@ SOURCES += \
     insert_windows.cpp \
     main.cpp \
     mainwindow.cpp \
-    serach_table.cpp
+    serach_table.cpp \
+    update_goods_data.cpp
 
 HEADERS += \
+    about_us.h \
     all_out.h \
     change_windows.h \
     fileio.h \
@@ -27,14 +30,17 @@ HEADERS += \
     insert.h \
     insert_windows.h \
     mainwindow.h \
-    serach_table.h
+    serach_table.h \
+    update_goods_data.h
 
 FORMS += \
+    about_us.ui \
     all_out.ui \
     change_windows.ui \
     insert_windows.ui \
     mainwindow.ui \
-    serach_table.ui
+    serach_table.ui \
+    update_goods_data.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

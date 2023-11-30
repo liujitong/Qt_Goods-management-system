@@ -8,7 +8,8 @@
 #include "qfiledialog.h"
 #include "fileio.h"
 #include "QMessageBox"
-#include <Qdebug>
+#include "about_us.h"
+#include "update_goods_data.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -93,5 +94,19 @@ void MainWindow::on_pushButton_clicked()
 {
     all_out *ao =new all_out;
     ao->show();
+}
+
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    about_us *au=new about_us;
+    au->show();
+}
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    update_goods_data *ugd=new update_goods_data;
+    ugd->show();
 }
 
