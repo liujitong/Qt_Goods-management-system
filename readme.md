@@ -12,11 +12,11 @@
 
 使用Qt6.5.3开发的，使用的是C++语言，构建套件是MinGW 64-bit，qmake。
 
-项目基于GPLV2协议开源，代码托管平台[Gitee](https://gitee.com/liujitong/Qt_Goods-management-system)
+项目基于AGPL-3.0协议开源，代码托管平台[Gitee](https://gitee.com/liujitong/Qt_Goods-management-system)
 
 ## 项目的问题
 
-目前我知道的是这个代码能运行，但是中文的程序名称会导致文件保存失败，具体问题可能以后还会更改
+目前我知道的是这个代码能运行，但是中文的程序名称会导致文件保存失败，具体问题可能以后还会更改，还有就是realease版本的程序，是不会按照升序排列的，但是这个现在的代码是正确的，这些代码realease是正确的版本
 
 ## 关于本仓库
 
